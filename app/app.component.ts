@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   template: `
-  <table class="jumbotron text-center" style="height:100%;background-color:black">
+  <table class="jumbotron text-center" style="width:100%;height:100%;background-color:black">
     <tr>
         <td>    <button (click)="onPrevious()" class="btn btn-default" [disabled]="prev_disabled">Previous</button>   </td>
         <td>    <img [src]="images[current_image]">  </td>

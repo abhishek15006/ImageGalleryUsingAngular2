@@ -39,7 +39,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n  <table class=\"jumbotron text-center\" style=\"height:100%;background-color:black\">\n    <tr>\n        <td>    <button (click)=\"onPrevious()\" class=\"btn btn-default\" [disabled]=\"prev_disabled\">Previous</button>   </td>\n        <td>    <img [src]=\"images[current_image]\">  </td>\n        <td>    <button (click)=\"onNext()\" class=\"btn btn-default\" [disabled]=\"next_disabled\">Next</button>   </td>\n    </tr>\n  </table>\n  "
+            template: "\n  <table class=\"jumbotron text-center\" style=\"width:100%;height:100%;background-color:black\">\n    <tr>\n        <td>    <button (click)=\"onPrevious()\" class=\"btn btn-default\" [disabled]=\"prev_disabled\">Previous</button>   </td>\n        <td>    <img [src]=\"images[current_image]\">  </td>\n        <td>    <button (click)=\"onNext()\" class=\"btn btn-default\" [disabled]=\"next_disabled\">Next</button>   </td>\n    </tr>\n  </table>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
